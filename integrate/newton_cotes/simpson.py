@@ -9,14 +9,17 @@ def evaluate(bounds, func):
     """
 
     Evaluates Simpons's rule on an array of values and a function pointer.
-    \int_{a}^{b} = \sum_i ...
+
+    .. math::
+
+        \int_{a}^{b} = \sum_i ...
 
     Parameters
     ----------
     bounds : array-like
         An array with a dimension of two that contains the starting and ending points
         of the integrand.
-    fund : function
+    func : function
         Evaluate the integrand at a point.
 
     Returns
