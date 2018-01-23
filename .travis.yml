@@ -3,8 +3,6 @@
 
 language: python
 
-[![Build Status](https://travis-ci.org/jdmcclain47/integrate.svg?branch=master)](https://travis-ci.org/jdmcclain47/integrate)
-
 # Run jobs on container-based infrastructure, can be overridden per job
 sudo: false
 
